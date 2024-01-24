@@ -1,9 +1,9 @@
 ## Go Web Server with Concurrent Workers
 
 ### Overview
-Go's implementation of web server already uses go routines on every request. So isn't it the best performance you can get ? Yes it is. But then what is the purpose of this article ?
+Go's implementation of web server already uses go routines on every request. So isn't it the best performance you can get ? Yes it is. But then what is the purpose of this project ?
 
-This article provides a way for the web server to provide instant response but process the heavy work in the background using go routines. It is mostly useful, for resource heavy task to be done.
+This project provides a way for the web server to provide instant response but process the heavy work in the background using go routines. It is mostly useful, for resource heavy task to be done.
 
 This repository contains a GoLang implementation of a web server that utilizes concurrent workers to handle incoming requests. The server responds to a "/hello" endpoint with an "Accepted" status code and the message "Welcome."
 
